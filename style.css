@@ -1,0 +1,54 @@
+::-webkit-scrollbar{
+  display: none;
+}
+body{
+  background: linear-gradient(135deg,#5f10f3, rgb(13, 2, 26));
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+
+.btn{
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  
+}
+
+.move-icon{
+  height: 50px;
+}
+
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score{
+  margin-top: 60px;
+}
+
+.reset-score-btn{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
